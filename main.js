@@ -22,7 +22,7 @@ function createWindow(){
     })
     
     //主进程启动后打开的页面
-    mainWindow.loadURL(`file://${__dirname}/index.html`);
+    mainWindow.loadURL('http://localhost:3000/html/img_clear_up.html');
     
     //谷歌调试工具
     mainWindow.webContents.openDevTools()

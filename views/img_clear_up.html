@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>保存图片</title>
+    <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="/css/img_clear_up.css">
+</head>
+
+<body>
+    <div class="group">
+        <label for="source">源地址:</label>
+        <input type="text" name="source" id="source" value="C:\Users\Administrator\Desktop\">
+    </div>
+    <div class="group">
+        <label for="target">目标地址:</label>
+        <input type="text" name="target" id="target" value="E:\blogShortCut\">(路径示例:E:\A\B\C\)
+    </div>
+    <div class="group">
+        <label for="target">是否同步到七牛:</label>
+        <input type="radio" name="sync" value="qiniu" checked>
+        <input type="radio" name="sync" value="noqiniu">
+    </div>
+    <button id="start">整理桌面图片</button>
+    <!--打印运行log-->
+    <p class="logger">日志打印:</p>
+    <div id="log">
+    </div>
+</body>
+<script type="text/javascript" src="/js/img_clear_up.js"></script>
+</html>

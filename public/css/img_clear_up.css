@@ -1,0 +1,40 @@
+body{
+        font: 18px/100% "Microsoft yahei","Hiragino Sans GB","Hiragino Sans GB W3",arial,\5b8b\4f53;
+    }
+
+    .error {
+        color: red;
+    }
+
+    .logger{
+        border-bottom: 1px dotted;
+        padding-bottom: 10px;
+    }
+    
+    #start {
+        color: #fff;
+        background-color: #428bca;
+        border-color: #357ebd;
+        border: none;
+        padding: 6px 12px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    #start:hover{
+        background-color: #166bb5;
+    }
+
+    input[type="text"]{
+        padding: 5px 10px;
+        border-radius: 4px;
+        border: none;
+        border: 1px solid #357ebd;
+    }
+
+    .group{
+        margin: 10px 5px;
+    }

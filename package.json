@@ -9,6 +9,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "bluebird": "^3.4.7"
+    "supervisor": "^0.12.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "express": "^4.14.0",
+    "qiniu": "^6.1.13",
+    "socket.io": "^1.7.2"
   }
 }
