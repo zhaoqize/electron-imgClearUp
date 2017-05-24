@@ -2,12 +2,13 @@
   <div class="oh">
     <div class="group">
         <label for="source" class="lb">源地址:</label>
-        <input type="text" name="source" id="source" value="">
+        <input type="text" name="source" id="source" value="/Users/zqz/Desktop/">
     </div>
     <div class="group">
         <label for="target" class="lb">目标地址:</label>
-        <input type="text" name="target" id="target" value="">
+        <input type="text" name="target" id="target" value="/imgs/">
     </div>
+    <webview src="https://www.github.com/"></webview>
    <!--  <div class="group">
         <label for="target">是否同步到七牛:</label>
         <input type="radio" name="sync" value="qiniu" checked> 是
@@ -33,7 +34,7 @@
     data () {
       return {
          config: {},
-         logger: {}
+         logger: {},
       }
     },
     methods: {
