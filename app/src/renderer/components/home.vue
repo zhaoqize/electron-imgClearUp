@@ -8,7 +8,7 @@
         <label for="target" class="lb">目标地址:</label>
         <input type="text" name="target" id="target" value="/imgs/">
     </div>
-    <webview src="https://www.github.com/"></webview>
+    <!-- <webview src="https://www.github.com/"></webview> -->
    <!--  <div class="group">
         <label for="target">是否同步到七牛:</label>
         <input type="radio" name="sync" value="qiniu" checked> 是
